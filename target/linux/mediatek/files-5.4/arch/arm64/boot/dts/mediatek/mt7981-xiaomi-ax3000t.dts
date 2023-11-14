@@ -1,5 +1,5 @@
 /dts-v1/;
-#include "mt7981-xiaomi-wr30u-base.dtsi"
+#include "mt7981-xiaomi-ax3000t-base.dtsi"
 
 / {
         nmbm_spim_nand {
