@@ -5,6 +5,7 @@ platform_do_upgrade() {
 
 	case "$board" in
         *wr30u* |\
+        *ax3000t* |\
 	*mt3000* |\
 	*x3000* |\
 	*xe3000* |\
@@ -36,6 +37,7 @@ platform_check_image() {
 
 	case "$board" in
         *wr30u* |\
+        *ax3000t* |\
 	*mt3000* |\
 	*x3000* |\
 	*xe3000* |\
@@ -68,4 +70,3 @@ platform_check_image() {
 
 	return 0
 }
-
